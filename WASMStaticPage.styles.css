@@ -1,3 +1,5 @@
+@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css';
+
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-rcdwj68gp3] {
     position: relative;
@@ -159,4 +161,179 @@ main[b-rcdwj68gp3] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* /Pages/Sets.razor.rz.scp.css */
+/* Header */
+.menu[b-59qs938e9x] {
+    background-color: lightgray;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.search[b-59qs938e9x] {
+    margin: 0 10px;
+    display: flex;
+
+    border-radius: 3px;
+}
+
+.research[b-59qs938e9x] {
+    margin: 0 10px;
+}
+
+.research label[b-59qs938e9x] {
+    padding: 0 5px;
+}
+
+.research input[b-59qs938e9x] {
+    margin: 5px 0;
+    padding: 0 10px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.research input:is(:hover)[b-59qs938e9x] {
+    border: 2px solid gray;
+}
+
+.research input:focus[b-59qs938e9x] {
+    border: 2px solid black;
+    outline: none;
+}
+
+
+.toggles[b-59qs938e9x] {
+    flex-grow: 1;
+
+    border-radius: 3px;
+}
+
+.toggles label[b-59qs938e9x] {
+    transform: translateY(25%);
+}
+
+/* Quickgrid */
+
+.array[b-59qs938e9x] {
+    width: max-content;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+[b-59qs938e9x] .grid {
+    margin-top: 20px;
+}
+
+[b-59qs938e9x] th {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-bottom: lightgray 1px solid;
+}
+
+[b-59qs938e9x] .col-title {
+    display:block;
+    text-align:center;
+}
+
+[b-59qs938e9x] tr {
+    background-color: whitesmoke;
+}
+
+[b-59qs938e9x] tr:has(input) .score {
+    background-color: rgb(255, 218, 218);
+}
+
+[b-59qs938e9x] tr:has(input:checked) .score {
+    background-color: rgb(189, 255, 184);
+}
+
+[b-59qs938e9x] tr:nth-of-type(2n+1) {
+    background-color: white;
+}
+
+[b-59qs938e9x] tr:has(input):nth-of-type(2n+1) .score {
+background-color: rgb(255, 233, 233);
+}
+
+[b-59qs938e9x] tr:has(input:checked):nth-of-type(2n+1) .score {
+    background-color: rgb(230, 255, 228);
+}
+
+[b-59qs938e9x] .center {
+    text-align: center
+}
+
+[b-59qs938e9x] .dateSize {
+    min-width: 100.1px;
+}
+
+[b-59qs938e9x] .iconcolumn {
+    min-width: 68px;
+}
+
+[b-59qs938e9x] .playernames {
+    min-width: 240px;
+}
+
+[b-59qs938e9x] .quickgrid[theme=grid] > tbody > tr > td {
+    padding: 5px 10px 5px 10px;
+    height: 50px;
+}
+
+[b-59qs938e9x] .full-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+[b-59qs938e9x] .tournament {
+    min-width: 410px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+/* Custom page links */
+
+.page-buttons[b-59qs938e9x] {
+    align-items: center;
+}
+
+.page-buttons button[b-59qs938e9x] {
+    background-color: whitesmoke;
+    color: blue;
+    padding: 0.50rem 0.75rem;
+    /*border-radius: 0.4rem;*/
+    border: gray 1px solid;
+    /*transition: transform 0.3s ease-out;*/
+    /*margin: 0.25rem;*/
+    min-width: 45px;
+}
+
+.page-buttons button:first-child[b-59qs938e9x] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.page-buttons button:last-child[b-59qs938e9x] {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.page-buttons button:active[b-59qs938e9x] {
+    background: #a7c1ff !important;
+    color: white;
+    /*transform: scale(0.95) translateY(-0.15rem);*/
+    /*transition-duration: 0.05s;*/
+}
+
+.page-buttons button:hover:not(.current)[b-59qs938e9x] {
+    background: #c0c9dc;
+}
+
+.page-buttons button.current[b-59qs938e9x] {
+    background: #3771f4;
+    color: white;
 }
