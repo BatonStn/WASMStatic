@@ -276,6 +276,7 @@ background-color: rgb(255, 233, 233);
 
 [b-59qs938e9x] .playernames {
     min-width: 240px;
+    max-width: 240px;
 }
 
 [b-59qs938e9x] .quickgrid[theme=grid] > tbody > tr > td {

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WASMStaticPage",
   "resources": {
-    "hash": "sha256-fKq+eq6sqcVcVguAu7dqOheQIV4ggXjLDbAt3RPRq7g=",
+    "hash": "sha256-2fhyQLCJjnHVQqvUzUGZebc2eTja1RKJwhjTFWQnF6U=",
     "fingerprinting": {
       "AutoMapper.wprof9o37n.wasm": "AutoMapper.wasm",
       "CsvHelper.t2en4y4q4i.wasm": "CsvHelper.wasm",
@@ -150,9 +150,9 @@
       "System.Xml.ReaderWriter.mtd3dsynv6.wasm": "System.Xml.ReaderWriter.wasm",
       "System.Xml.XDocument.ynfbqk1y7g.wasm": "System.Xml.XDocument.wasm",
       "System.Xml.XPath.XDocument.0q3wmar4r9.wasm": "System.Xml.XPath.XDocument.wasm",
-      "WASMStaticPage.zvk5y14oph.wasm": "WASMStaticPage.wasm",
+      "WASMStaticPage.tiwul47thc.wasm": "WASMStaticPage.wasm",
       "dotnet.native.w2bakjp22g.js": "dotnet.native.js",
-      "dotnet.native.2ebtl8yty6.wasm": "dotnet.native.wasm",
+      "dotnet.native.t724prwoko.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.rubq0v1yiy.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -166,7 +166,7 @@
       "dotnet.runtime.rubq0v1yiy.js": "sha256-gypqZnsxxUh4y4EJmawvOCaX4hoTaesVGwIgWXwZcNw="
     },
     "wasmNative": {
-      "dotnet.native.2ebtl8yty6.wasm": "sha256-Fmy03ThOetf7/HkNUS2n1OgDbnin+vTiz0JlFuftE4s="
+      "dotnet.native.t724prwoko.wasm": "sha256-xxaxjS+FpYfhS75AxAZsvs4d3uUTfesppEdSPVWK6s0="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -321,7 +321,7 @@
       "System.Xml.ReaderWriter.mtd3dsynv6.wasm": "sha256-RprHbHKqYiuR9R5W0PJPkoXVRlbEZ+nRfeqQQGqrsXw=",
       "System.Xml.XDocument.ynfbqk1y7g.wasm": "sha256-Dt4hJ1GOjcQME1+wzYQitieA+XX6iNbbAbQNj1Of2S4=",
       "System.Xml.XPath.XDocument.0q3wmar4r9.wasm": "sha256-2MjzSRne1wIQDqclSoVNTRLua7OX8UvoiUocPi8SKC0=",
-      "WASMStaticPage.zvk5y14oph.wasm": "sha256-/z4VLn2Y4T1Xr3rPFNB3QxUpxb9P1Y3hWkyXNbxkL1o="
+      "WASMStaticPage.tiwul47thc.wasm": "sha256-24pdryCT79LYyBrAW2ShZErFRdq3I3cqphdIPmRAfV4="
     },
     "assembly": {}
   },
