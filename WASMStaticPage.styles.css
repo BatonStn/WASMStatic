@@ -244,6 +244,7 @@ main[b-rcdwj68gp3] {
 
 [b-59qs938e9x] tr:has(input) .score {
     background-color: rgb(255, 218, 218);
+    min-width: 61px;
 }
 
 [b-59qs938e9x] tr:has(input:checked) .score {
