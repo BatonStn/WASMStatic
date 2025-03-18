@@ -396,7 +396,7 @@ article[b-mk76uf9nkq] { height: 100% }
     }
 
     .lightmode_input[b-rz9ew92z0i] {
-        justify-content: flex-end;
+        flex-direction: row-reverse;
         flex-grow: 1;
     }
 
